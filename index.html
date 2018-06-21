@@ -17,8 +17,6 @@ function getRandomInt(max) {
 
 var game = new Phaser.Game(800, 600, Phaser.AUTO, 'IL EST BEAU LE LAVABO', { preload: preload, create: create, update: update, render: render });
 
-var game = new Phaser.Game(window.screen.availWidth * window.devicePixelRatio, window.screen.availHeight * window.devicePixelRatio, Phaser.CANVAS, 'game');
-
 function preload() {
 
     game.load.image('sink', 'sink.png');
